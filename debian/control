@@ -1,0 +1,24 @@
+Source: python-types-enum34
+Section: python
+Priority: optional
+Maintainer: Pexip AS <packaging@pexip.com>
+Build-Depends: debhelper (>= 11), dh-python, python3-all, python3-setuptools
+Standards-Version: 4.1.3
+Homepage: https://github.com/python/typeshed
+X-Python3-Version: >= 3.7
+Vcs-Browser: https://github.com/pexip/os-python-types-enum34
+Vcs-Git: https://github.com/pexip/os-python-types-enum34.git
+
+
+Package: python3-types-enum34
+Architecture: all
+Depends: ${python3:Depends}, ${misc:Depends}
+Description: Typing stubs for enum34
+ This is a PEP 561 type stub package for the enum34 package. It can be
+ used by type-checking tools like mypy, PyCharm, pytype etc. to check
+ code that uses enum34. The source for this package can be found at
+ https://github.com/python/typeshed/tree/master/stubs/enum34. All
+ fixes for types and metadata should be contributed there.
+ .
+ See https://github.com/python/typeshed/blob/master/README.md for
+ more details.
