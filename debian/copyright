@@ -1,6 +1,6 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Upstream-Name: python-types-cryptography
-Source: <url://example.com>
+Upstream-Name: python-types-enum34
+Source: https://pypi.org/project/types-enum34/#files
 
 Files: *
 Copyright: 2021 Eric Traut <eric@traut.com>

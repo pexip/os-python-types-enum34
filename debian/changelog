@@ -1,3 +1,9 @@
+python-types-enum34 (1.1.1-0pexip2) pexip; urgency=medium
+
+  * Fix copyright file
+
+ -- Huw Jones <huw@pexip.com>  Wed, 10 Nov 2021 13:01:38 +0000
+
 python-types-enum34 (1.1.1-0pexip1) pexip; urgency=medium
 
   * Prepare Pexip Packaging
